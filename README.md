@@ -1,2 +1,3 @@
 # FRONT-END-SENAI
-Repositório para material de aula
+- Aula 1 - Internet
+- Aula 2 - Github
