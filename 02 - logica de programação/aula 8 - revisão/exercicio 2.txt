@@ -1,0 +1,24 @@
+Algoritmo "ex"
+
+Var
+
+
+Inicio
+
+procedimento maioresQue10()
+   var
+     i, numero, maiores : inteiro
+   inicio
+   para i <- 1 ate 5 faca
+     leia(numero)
+     
+     se (numero > 10)entao
+       maiores <- maiores + 1
+     fimSe
+   fimPara
+   
+   escreval("São ",maiores," maiores que 10")
+fimProcedimento
+
+maioresQue10()
+Fimalgoritmo

@@ -1,0 +1,39 @@
+Algoritmo "ex"
+
+Var
+   numerosSorteados: vetor[1..3] de inteiro
+   numerosApostados: vetor[1..3] de inteiro
+   contador: inteiro
+   acertos: inteiro
+Inicio
+   escreval("Digite os números apostados:")
+   para contador <- 1 ate 3 faca
+      leia(numerosApostados[contador])
+   fimPara
+   escreval("--------------------------")
+   escreval("Digite os números sorteados: ")
+   para contador <- 1 ate 3 faca
+      leia(numerosSorteados[contador])
+   fimPara
+
+   se (numerosApostados[1] = numerosSorteados[1]) ou (numerosApostados[1] = numerosSorteados[2]) ou (numerosApostados[1] = numerosSorteados[3]) entao
+      acertos <- acertos + 1
+   fimSe
+   se (numerosApostados[2] = numerosSorteados[1]) ou (numerosApostados[2] = numerosSorteados[2]) ou (numerosApostados[2] = numerosSorteados[3]) entao
+      acertos <- acertos + 1
+   fimSe
+   se (numerosApostados[3] = numerosSorteados[1]) ou (numerosApostados[3] = numerosSorteados[2]) ou (numerosApostados[3] = numerosSorteados[3]) entao
+      acertos <- acertos + 1
+   fimSe
+
+   escreval("--------------------------")
+   se (acertos = 0) entao
+      escreval("Você não acertou nenhum!")
+   senao
+      se (acertos > 0 ) e (acertos < 3) entao
+         escreval("Você acertou ", acertos," números!")
+      senao
+         escreval("Você ganhou na loteria!!!")
+      fimse
+   fimse
+Fimalgoritmo
