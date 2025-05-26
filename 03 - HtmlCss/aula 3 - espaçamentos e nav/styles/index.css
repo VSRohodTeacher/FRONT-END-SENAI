@@ -1,6 +1,7 @@
 *{
     margin: 0%;
     padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body{
@@ -28,4 +29,10 @@ header,footer{
 main{
     margin: 20px 0px;
     text-align: center;
+}
+
+#banner{
+    width: 60%;
+    margin: 20px 0px;
+    border-radius: 10px;
 }
