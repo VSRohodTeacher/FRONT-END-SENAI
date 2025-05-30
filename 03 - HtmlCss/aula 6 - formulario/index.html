@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEEDBACK</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <main>
+        <h2>SATISFAÇÃO</h2>
+        <!-- GET - Passa informações do form no url -->
+        <!-- POST - Oculta informações do form no url -->
+        <!-- ACTION - lugar onde o formulário será enviado -->
+        <form action="#" method="get">
+            <!-- NOME -->
+            <div class="inputs">
+                <label for="nome">Nome*: </label>
+                <input required id="nome" placeholder="Ex: Jhon Doe" type="text">
+            </div>
+
+            <input type="number">
+
+            <!-- EMAIL -->
+            <div class="inputs">
+                <label for="email">Email: </label>
+                <input id="email" placeholder="Ex: nome@gmail.com" type="email">
+            </div>
+
+            <!-- TELEFONE -->
+            <div class="inputs">
+                <label for="telefone">Telefone: </label>
+                <input id="telefone" value="+55 ()" placeholder="Ex: (ddd) 9999-9999" type="tel">
+            </div>
+        
+            <!-- EMPRESA -->
+            <div class="inputs">
+                <label for="empresa">Empresa: </label>
+                <input disabled id="sempresa" value="SENAI TAGUATINGA INDUSTRIAL" type="text">
+            </div>
+
+            <!-- EXEMPLOS -->
+            <!-- <div class="inputs">
+                <input id="senha" type="password">
+                <input id="foto" type="file">
+                <input id="data" type="date">
+                <input id="cor" type="color">
+                <input id="hora" type="time">
+                <input id="opcao" type="checkbox">
+                <input id="dataHora" type="datetime-local">
+                <input id="semana" type="week">
+                <input id="oculto" type="hidden">
+            </div> -->
+
+            <textarea cols="40" rows="10"></textarea>
+
+            <!-- <input type="button" value="ENVIAR"> -->
+            <button type="submit">ENVIAR</button>
+            <button type="reset">RESETAR</button>
+        </form>
+    </main>
+</body>
+</html>
