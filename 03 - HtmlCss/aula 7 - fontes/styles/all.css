@@ -1,0 +1,82 @@
+@font-face {
+    font-family: california_vibes;
+    src: url(../fonts/california_vibes/California\ Vibes.ttf);
+}
+
+@font-face {
+    font-family: race_sport;
+    src: url(../fonts/race_sport/Race\ Sport.ttf);
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: "Roboto",Arial,sans-serif;
+}
+
+h2{
+    font-family: race_sport, Arial ;
+    font-size: 40pt;
+}
+
+header,
+footer {
+    width: 100%;
+    padding: 10px 0px;
+    background-color: rgb(241, 70, 8);
+    display: flex;
+    justify-content: space-around;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+a{
+    color: orangered;
+    text-decoration: none;
+    background-color: white ;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#logo {
+    width: 40px;
+    height: 40px;
+    background-color: slategrey;
+}
+
+#promocao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0px;
+}
+
+.carro{
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid rgba(128, 128, 128, 0.069);
+    border-radius: 5px;
+    box-shadow: rgba(153, 153, 153, 0.697) 5px 5px 10px;
+}
+
+.carro img{
+    border-radius: 5px;
+    width: 100%;
+}
+
+#grupoCarros{
+    display: flex;
+    margin: 20px 0px;
+    gap: 30px;
+}
+
+/* https://fonts.google.com/ */
+/* https://www.dafont.com/pt/ */
