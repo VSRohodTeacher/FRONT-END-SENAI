@@ -1,0 +1,74 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+section{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(207, 207, 207);
+    margin: 10px auto;
+    padding: 20px;
+}
+
+table{
+    width: 400px;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+td{
+    background-color: white;
+}
+
+th{
+    background-color: grey;
+}
+
+th:hover{
+    background-color: rgb(82, 178, 82);
+    cursor: pointer;
+}
+
+td:hover{
+    background-color: rgb(211, 211, 211);
+}
+
+td:active{
+    background-color: rgb(82, 178, 82);
+}
+
+input{
+    background-color: rgb(229, 229, 229);
+    transition: 1s;
+}
+
+/* PSEUDOELEMENTO - "Elementos do navegador", geralmente "::elemento" */
+/* PSEUDOCLASSE - "Classes de eventos", geralmente "elemento:ação" */
+
+input:focus{
+    padding: 3px;
+    background-color: black;
+    color: white;
+    transition: 1s;
+    border-radius: 5px;
+}
+
+::placeholder{
+    color: blue;
+}
+
+#caixa{
+    width: 200px;
+    height: 200px;
+    background-color: teal;
+    position:absolute;
+    left: 0%;
+    bottom: 0%;
+}
