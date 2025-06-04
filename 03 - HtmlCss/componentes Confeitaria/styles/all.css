@@ -1,0 +1,60 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#boloGrupo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.fotoBolo{
+    width: 80%;
+    height: 100px;
+    background-image: url("../images/boloMorango.jpg");
+    background-color: aliceblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 5px;
+    display: flex;
+    align-items: end;
+}
+
+/* https://imagecolorpicker.com/ */
+
+body{
+    background-size: 50%;
+    background-color: #fed1cc;
+    background-repeat: no-repeat;
+    background-image: url("../images/8693124-desenhado-a-mao-bolo-de-aniversario-fatiado-plano-desenho-isolado-vetor.jpg");
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.fotoBolo p{
+    padding: 5px;
+    background-color: rgb(255, 43, 138);
+    color: white;
+}
+
+.bolo{
+    width: 300px;
+    transition: 0.5s;
+    gap: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(216, 216, 216);
+}
+
+.bolo:hover{
+    transition: 0.5s;
+    padding: 25px;
+}
