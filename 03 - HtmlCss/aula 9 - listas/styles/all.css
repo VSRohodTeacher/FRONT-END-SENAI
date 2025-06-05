@@ -1,0 +1,45 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* https://fonts.google.com/icons */
+/* https://icons.getbootstrap.com/ */
+.assunto {
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: rgb(228, 228, 228);
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(43, 43, 43);
+    padding: 10px 0px;
+}
+
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: crimson;
+}
+
+#linkSobre:hover{
+    color: rgb(8, 216, 8);
+}
+
+#logo img{
+    width: 24px;
+}
