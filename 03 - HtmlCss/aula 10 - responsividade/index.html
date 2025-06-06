@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade</title>
+    <link rel="stylesheet" href="style/all.css">
+    <link rel="stylesheet" href="style/landscape.css" media="screen and (orientation: landscape)">
+    <link rel="stylesheet" href="style/portrait.css" media="screen and (orientation: portrait)">
+</head>
+
+<body>
+    <header>
+        <div id="logo"></div>
+        <nav id="navPc">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Pag1</a></li>
+                <li><a href="index.html">Pag2</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <picture>
+            <source media="(max-width:1000px)" srcset="images/mulherdancandoMenor.jpg">
+            <img src="images/mulherdancando.jpg" alt="">
+        </picture>
+        
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam ducimus officia dolor commodi
+            asperiores inventore nobis distinctio consequuntur omnis delectus quisquam aliquid illum voluptates
+            necessitatibus, atque, magnam officiis animi.</p>
+        </main>
+        <nav id="navMobile">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Pag1</a></li>
+                <li><a href="index.html">Pag2</a></li>
+            </ul>
+        </nav>
+    </body>
+
+</html>
