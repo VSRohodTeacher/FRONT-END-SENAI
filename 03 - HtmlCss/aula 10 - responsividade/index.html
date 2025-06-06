@@ -20,6 +20,9 @@
                 <li><a href="index.html">Pag2</a></li>
             </ul>
         </nav>
+        <button onclick="menuMobile()">
+            <img src="images/menuIcon.svg" alt="">
+        </button>
     </header>
     
     <main>
@@ -40,5 +43,18 @@
             </ul>
         </nav>
     </body>
+
+    <script>
+        // procedimento nome()
+        // <-    =
+        // =     ==  ===
+        function menuMobile(){
+            if(navMobile.style.display == "flex"){
+                navMobile.style.display = "none"
+            }else{
+                navMobile.style.display = "flex"
+            }
+        }
+    </script>
 
 </html>

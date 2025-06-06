@@ -50,9 +50,17 @@ main img{
     }
 }
 
+header button{
+    display: none;
+}
+
 @media screen and ( max-width: 1000px ){
     body{
         background-color: rgb(0, 68, 255);
+    }
+
+    header button{
+        display: flex;
     }
 
     #navMobile{
