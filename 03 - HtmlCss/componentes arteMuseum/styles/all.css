@@ -1,0 +1,44 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+#artes{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr{
+    width: 30%;
+    border: 1px solid #F5124B;
+}
+
+#artesGrupo{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.arte{
+    width: 30%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.arte img{
+    width: 100%;
+}
+
+@media screen and (max-width:600px) {
+    #artesGrupo{
+        flex-direction: column;
+    }
+
+    .arte{
+        width: 100%;
+    }
+}

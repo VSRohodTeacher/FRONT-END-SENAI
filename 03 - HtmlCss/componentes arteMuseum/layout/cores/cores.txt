@@ -1,0 +1,5 @@
+/* COR CINZA */
+background-color: #2A2B2A;
+
+/* COR ROSA */
+background-color: #F5124B;
