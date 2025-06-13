@@ -1,0 +1,25 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.formaPagamento{
+    width: 300px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+th{
+    background-color: #ba2d2d!important;
+    padding: 5px!important;
+    color: white!important;
+}
+
+th:empty{
+    background-color: transparent!important;
+}

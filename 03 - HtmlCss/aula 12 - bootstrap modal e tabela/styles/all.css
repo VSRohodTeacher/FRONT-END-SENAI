@@ -4,9 +4,13 @@
 }
 
 :root{
-    --corPrimaria : rgb(0, 149, 255) ;
+    --corPrimaria : rgba(0, 149, 255, 0.472) ;
     --design: rgb(255 , 255 , 0) ;
     --fontePrincipal : 'verdana' ;
     --tamanhoFonte : 14pt;
     --postTamanho : 300px;
+}
+
+#barra{
+    border-radius: 2px!important;
 }
