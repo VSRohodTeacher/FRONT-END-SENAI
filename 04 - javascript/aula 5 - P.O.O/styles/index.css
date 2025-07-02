@@ -1,0 +1,14 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+:root{
+    --branco : rgb(228, 228, 228) ;
+}
+
+.card{
+    padding: 20px;
+    background-color: rgb(195, 195, 195);
+    margin: 20px;
+}
